@@ -13,3 +13,7 @@ NLTK 3.0 - http://nltk.org/install.html
 Numpy - http://sourceforge.net/projects/numpy/files/
 
 
+Use
+====
+
+In order to make use of TextRank you need only run the textrank.py file.  Please note that this analyzes text files in the articles folder.  So please make sure all articles are .txt files.
