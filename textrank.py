@@ -161,7 +161,7 @@ articles = os.listdir("articles")
 for article in articles:
     print 'Reading articles/' + article
     articleFile = open('articles/' + article, 'r')
-    text = articleFile.read()
+    text = articleFile.read().decode("ascii","ignore")
     keyphrases = extractKeyphrases(text)
     summary = extractSentences(text)
     writeFiles(summary, keyphrases, article)
